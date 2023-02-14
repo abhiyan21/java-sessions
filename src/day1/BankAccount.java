@@ -1,7 +1,6 @@
 package day1;
 
-public class BankAccount {
-    import java.util.List;
+import java.util.List;
 
     public class BankAccount {
 
@@ -70,7 +69,5 @@ public class BankAccount {
         // card request
         // change password
         // block card
-
-
     }
-}
+
