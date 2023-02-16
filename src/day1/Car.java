@@ -21,6 +21,10 @@ public class Car {
     // Behavior
 
 
+
+    public String getCustomerSSN (CustomerInformation SSN) {
+        return SSN.customerSSN;
+    }
     // Running
     public boolean isCarRunning(){
         return true;
@@ -30,5 +34,14 @@ public class Car {
     public boolean isCarStill() {
         return false;
     }
+
+    // Buy
+    public void buyCar (CustomerInformation customerInfo, CarInformation carInfo) {
+
+    }
+
+    // Test Drive
+    // Finance
+
 
 }
